@@ -85,13 +85,14 @@ div#info{
     font: normal 15pt black;
     background-color: rgba(211, 211, 211, 0.600);
     border-radius: 15px;
-    list-style: none;
+    
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
     height: 200px;
 }
 
 div#info > ul{
     columns: 2;
+    list-style: none;
 }
 h2{
     text-align: justify;
