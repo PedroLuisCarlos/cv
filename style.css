@@ -160,7 +160,7 @@ div#hab{
 div#hab > ul {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
-    columns: 2;
+    
 }
 
 div#comp{
@@ -177,7 +177,7 @@ div#comp{
 div#comp > ul{
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
-    columns: 3;
+    columns: 2;
 }
 
 div#hob{
@@ -194,7 +194,7 @@ div#hob{
 div#hob > ul{
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
-    columns: 3;
+    columns: 2;
 }
 
 div#mfinal{
