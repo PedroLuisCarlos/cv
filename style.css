@@ -81,13 +81,12 @@ header > h1{
 
 div#info{
     text-indent: 10px;
-    text-align: justify;
+    text-align: center;
     font: normal 15pt black;
     background-color: rgba(211, 211, 211, 0.600);
     border-radius: 15px;
-    
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
-    height: 200px;
+    width: 98vw;
 }
 
 div#info > ul{
@@ -95,22 +94,29 @@ div#info > ul{
     list-style: none;
 }
 h2{
-    text-align: justify;
+    text-align: center;
     color: rgb(21, 62, 175);
 }
 div#exp{
+    width: 98vw;
     text-indent: 10px;
-    text-align: justify;
+    text-align: center;
     font: normal 15pt black;
     background-color: rgba(211, 211, 211, 0.600);
     border-radius: 15px;
     list-style: inside ;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
-    padding-bottom: 10px;
-   
+    padding-bottom: 10px;  
+}
+
+div#exp > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
 }
 
 section{
+    width: 98vw;
     font: normal 15pt black;
     background-color: rgba(211, 211, 211, 0.600);
      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
@@ -139,6 +145,7 @@ tr:nth-child(odd) {
 }
 
 div#hab{
+    width: 98vw;
     text-indent: 10px;
     text-align: justify;
     font: normal 15pt black;
@@ -146,38 +153,52 @@ div#hab{
     border-radius: 15px;
     list-style: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
-    height: 200px;
+    padding-bottom: 10px;  
+}
+
+
+div#hab > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
 }
 
 div#comp{
+    width: 98vw;
     text-indent: 10px;
-    text-align: justify;
+    text-align: center;
     font: normal 15pt black;
     background-color: rgba(211, 211, 211, 0.600);
     border-radius: 15px;
     list-style: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
-    height: 200px;
+    padding-bottom: 10px;
 }
 div#comp > ul{
-    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 3;
 }
 
 div#hob{
+    width: 98vw;
     text-indent: 10px;
-    text-align: justify;
+    text-align: center;
     font: normal 15pt black;
     background-color: rgba(211, 211, 211, 0.600);
     border-radius: 15px;
     list-style: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
-    height: 160px;
+    padding-bottom: 10px;
 }
 div#hob > ul{
-    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 3;
 }
 
 div#mfinal{
+    width: 98vw;
     text-indent: 10px;
     text-align: justify;
     font: normal 15pt black;
@@ -185,7 +206,7 @@ div#mfinal{
     border-radius: 15px;
     list-style: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
-    height: 200px;
+    padding-bottom: 10px;
 }
 
 div#mfinal > p{
@@ -194,6 +215,7 @@ div#mfinal > p{
 
 
 footer{
+    width: 98vw;
     text-align: center;
     font: normal 15pt arial;
     background-color: rgba(211, 211, 211, 0.600);
