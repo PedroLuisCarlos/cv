@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 body{
-    margin: auto;
-    padding: 10px;
+    
+   width: 100vw;
     background: url(imagens/pexels-pixabay-235985.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
-    overflow-x: hidden;
+    
     
 }
 
@@ -82,14 +82,19 @@ header > h1{
     color: rgb(14, 41, 117);
 }
 
+main{
+    width: 100vw;
+   
+}
+
 div#info{
+    width: 100vw;
     text-indent: 10px;
     text-align: center;
     font: normal 15pt black;
     background-color: rgba(211, 211, 211, 0.308);
     border-radius: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
-    width: 97vw;
     padding-bottom: 10px;
 }
 
@@ -102,7 +107,7 @@ h2{
     color: rgb(21, 62, 175);
 }
 div#exp{
-    width: 97vw;
+    width: 100vw;
     text-indent: 10px;
     text-align: center;
     font: normal 15pt black;
@@ -120,7 +125,7 @@ div#exp > ul {
 }
 
 section{
-    width: 97vw;
+    width: 100vw;
     font: normal 15pt black;
     background-color: rgba(211, 211, 211, 0.308);
      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
@@ -149,7 +154,7 @@ tr:nth-child(odd) {
 }
 
 div#hab{
-    width: 97vw;
+    width: 100vw;
     text-indent: 10px;
     text-align: justify;
     font: normal 15pt black;
@@ -168,7 +173,7 @@ div#hab > ul {
 }
 
 div#comp{
-    width: 97vw;
+    width: 100vw;
     text-indent: 10px;
     text-align: center;
     font: normal 15pt black;
@@ -185,7 +190,7 @@ div#comp > ul{
 }
 
 div#hob{
-    width: 97vw;
+    width: 100vw;
     text-indent: 10px;
     text-align: center;
     font: normal 15pt black;
@@ -202,7 +207,7 @@ div#hob > ul{
 }
 
 div#mfinal{
-    width: 97vw;
+    width: 100vw;
     text-indent: 10px;
     text-align: justify;
     font: normal 15pt black;
@@ -219,7 +224,7 @@ div#mfinal > p{
 
 
 footer{
-    width: 97vw;
+    width: 100vw;
     text-align: center;
     font: normal 15pt arial;
     background-color: rgba(211, 211, 211, 0.308);
