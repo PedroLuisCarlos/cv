@@ -3,9 +3,11 @@
 body{
     margin: auto;
     padding: 10px;
-    background: url(imagens/pexels-david-skyrius-2129796.jpg) no-repeat;
+    background: url(imagens/pexels-pixabay-235985.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
+    overflow-x: hidden;
+    
 }
 
 header{
@@ -27,7 +29,8 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.151);
 }
 
 div#social{
-    text-align: right;
+    text-align: center;
+    padding-top: 10px;
         
 }
 
@@ -58,13 +61,13 @@ div#cv{
  div#cv > a{
     text-decoration: none;
     font: bolder 15pt arial;
-    color: rgb(255, 255, 255)
+        color: rgb(14, 41, 117);
  }
 
 div#cv > a:hover {
     transform: translate(-5px, -5px);
     transition: transform .5s, border 1s;
-    color: green;
+    color: rgb(255, 255, 255)
 }
 
 h1{
@@ -76,17 +79,18 @@ h1{
 
 header > h1{
    
-     color: rgb(255, 255, 255);
+    color: rgb(14, 41, 117);
 }
 
 div#info{
     text-indent: 10px;
     text-align: center;
     font: normal 15pt black;
-    background-color: rgba(211, 211, 211, 0.600);
+    background-color: rgba(211, 211, 211, 0.308);
     border-radius: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
-    width: 98vw;
+    width: 97vw;
+    padding-bottom: 10px;
 }
 
 div#info > ul{
@@ -98,11 +102,11 @@ h2{
     color: rgb(21, 62, 175);
 }
 div#exp{
-    width: 98vw;
+    width: 97vw;
     text-indent: 10px;
     text-align: center;
     font: normal 15pt black;
-    background-color: rgba(211, 211, 211, 0.600);
+    background-color: rgba(211, 211, 211, 0.308);
     border-radius: 15px;
     list-style: inside ;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
@@ -116,12 +120,12 @@ div#exp > ul {
 }
 
 section{
-    width: 98vw;
+    width: 97vw;
     font: normal 15pt black;
-    background-color: rgba(211, 211, 211, 0.600);
+    background-color: rgba(211, 211, 211, 0.308);
      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
     border-radius: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 table{
     margin: auto;
@@ -145,11 +149,11 @@ tr:nth-child(odd) {
 }
 
 div#hab{
-    width: 98vw;
+    width: 97vw;
     text-indent: 10px;
     text-align: justify;
     font: normal 15pt black;
-    background-color: rgba(211, 211, 211, 0.600);
+    background-color: rgba(211, 211, 211, 0.308);
     border-radius: 15px;
     list-style: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
@@ -164,11 +168,11 @@ div#hab > ul {
 }
 
 div#comp{
-    width: 98vw;
+    width: 97vw;
     text-indent: 10px;
     text-align: center;
     font: normal 15pt black;
-    background-color: rgba(211, 211, 211, 0.600);
+    background-color: rgba(211, 211, 211, 0.308);
     border-radius: 15px;
     list-style: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
@@ -181,11 +185,11 @@ div#comp > ul{
 }
 
 div#hob{
-    width: 98vw;
+    width: 97vw;
     text-indent: 10px;
     text-align: center;
     font: normal 15pt black;
-    background-color: rgba(211, 211, 211, 0.600);
+    background-color: rgba(211, 211, 211, 0.308);
     border-radius: 15px;
     list-style: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
@@ -198,11 +202,11 @@ div#hob > ul{
 }
 
 div#mfinal{
-    width: 98vw;
+    width: 97vw;
     text-indent: 10px;
     text-align: justify;
     font: normal 15pt black;
-    background-color: rgba(211, 211, 211, 0.600);
+    background-color: rgba(211, 211, 211, 0.308);
     border-radius: 15px;
     list-style: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
@@ -215,10 +219,10 @@ div#mfinal > p{
 
 
 footer{
-    width: 98vw;
+    width: 97vw;
     text-align: center;
     font: normal 15pt arial;
-    background-color: rgba(211, 211, 211, 0.600);
+    background-color: rgba(211, 211, 211, 0.308);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
     }
     
