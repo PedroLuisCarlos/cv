@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+body{
+    margin: auto;
+    padding: 10px;
+    background: url(imagens/pexels-david-skyrius-2129796.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header{
+    
+    font: normal 10pt black;
+    text-align: center;
+    border-radius: 15px;
+   
+    
+  }
+
+header > img{
+border-radius: 35%;
+width: 200px;
+height: 200px;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.151);
+
+
+}
+
+div#social{
+    text-align: right;
+        
+}
+
+div#social img{
+    width: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.151);
+    box-sizing: border-box;
+}
+div#social img:hover{
+    border: 2px solid rgba(0, 0, 0, 0.637);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    transition: transform .5s, border 1s;
+
+}
+
+
+div#cv{
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font: bolder 20pt arial;
+  
+   
+ }
+
+ div#cv > a{
+    text-decoration: none;
+    font: bolder 15pt arial;
+    color: rgb(255, 255, 255)
+ }
+
+div#cv > a:hover {
+    transform: translate(-5px, -5px);
+    transition: transform .5s, border 1s;
+    color: green;
+}
+
+h1{
+    text-align: center;
+    color: rgb(14, 41, 117);
+    padding-top: 10px;
+    
+}
+
+header > h1{
+   
+     color: rgb(255, 255, 255);
+}
+
+div#info{
+    text-indent: 10px;
+    text-align: justify;
+    font: normal 15pt black;
+    background-color: rgba(211, 211, 211, 0.600);
+    border-radius: 15px;
+    list-style: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    height: 200px;
+}
+
+div#info > ul{
+    columns: 2;
+}
+h2{
+    text-align: justify;
+    color: rgb(21, 62, 175);
+}
+div#exp{
+    text-indent: 10px;
+    text-align: justify;
+    font: normal 15pt black;
+    background-color: rgba(211, 211, 211, 0.600);
+    border-radius: 15px;
+    list-style: inside ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+    padding-bottom: 10px;
+   
+}
+
+section{
+    font: normal 15pt black;
+    background-color: rgba(211, 211, 211, 0.600);
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+table{
+    margin: auto;
+    width: 80vw;
+    border-collapse: collapse;
+    
+}
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center; /* Alinhamento Horizontal*/
+    vertical-align: middle;/* Alinhamento Vertical.*/
+}
+
+th{
+    color: white;
+    background-color:  rgb(21, 62, 175);;
+}
+tr:nth-child(odd) {
+    background-color: rgba(163, 163, 163, 0.473);
+}
+
+div#hab{
+    text-indent: 10px;
+    text-align: justify;
+    font: normal 15pt black;
+    background-color: rgba(211, 211, 211, 0.600);
+    border-radius: 15px;
+    list-style: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    height: 200px;
+}
+
+div#comp{
+    text-indent: 10px;
+    text-align: justify;
+    font: normal 15pt black;
+    background-color: rgba(211, 211, 211, 0.600);
+    border-radius: 15px;
+    list-style: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    height: 200px;
+}
+div#comp > ul{
+    columns: 2;
+}
+
+div#hob{
+    text-indent: 10px;
+    text-align: justify;
+    font: normal 15pt black;
+    background-color: rgba(211, 211, 211, 0.600);
+    border-radius: 15px;
+    list-style: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    height: 160px;
+}
+div#hob > ul{
+    columns: 2;
+}
+
+div#mfinal{
+    text-indent: 10px;
+    text-align: justify;
+    font: normal 15pt black;
+    background-color: rgba(211, 211, 211, 0.600);
+    border-radius: 15px;
+    list-style: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    height: 200px;
+}
+
+div#mfinal > p{
+    padding: 10px;
+}
+
+
+footer{
+    text-align: center;
+    font: normal 15pt arial;
+    background-color: rgba(211, 211, 211, 0.600);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+    }
+    
