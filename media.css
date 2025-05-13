@@ -1,0 +1,40 @@
+ @media (max-width: 768px) {
+      body {
+        padding: 15px; /* Menos padding em telas pequenas */
+      }
+
+      h1 {
+        font-size: 1.8em; /* Tamanho de fonte um pouco menor */
+      }
+
+      h2 {
+        font-size: 1.2em;
+      }
+
+      .section {
+        margin-bottom: 20px;
+      }
+
+      p, h2 {
+        font-size: 0.9em; /* Ajuste de fonte para leitura fácil em telas pequenas */
+      }
+    }
+
+    /* Responsividade para telas muito pequenas (ex: smartphones em modo retrato) */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.6em; /* Tamanho de fonte ainda menor */
+      }
+
+      h2 {
+        font-size: 1em;
+      }
+
+      p {
+        font-size: 0.85em; /* Ajuste fino para pequenas telas */
+      }
+
+      .section {
+        margin-bottom: 15px; /* Menor espaçamento entre seções */
+      }
+    }
