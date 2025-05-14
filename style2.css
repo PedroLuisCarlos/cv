@@ -189,7 +189,7 @@ footer {
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .lista-3-colunas {
         grid-template-columns: repeat(2, 1fr);
     }
