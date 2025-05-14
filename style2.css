@@ -192,7 +192,7 @@ footer {
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
     .lista-3-colunas {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     #cv {
