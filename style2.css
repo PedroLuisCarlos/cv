@@ -61,6 +61,7 @@ a:hover {
 
 /* Header */
 header {
+    background-image: url(imagens/);
     background-color: #2c3e50;
     color: white;
     padding: -20px;
@@ -110,7 +111,7 @@ header img {
 /* Skills Section */
 #comp .lista-3-colunas {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 0;
     list-style-type: none;
